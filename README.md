@@ -10,8 +10,8 @@
 3. (Optional) Install [prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) to format code automatically based on .prettierrc file config.
 
 ### Setup .eslintrc for project
-1. Create file .eslintrc same directory with package.json. All of standard config for your code will be here.
-2. Copy content of [.eslint](https://github.com/nguyencuong382/node-eslint-standard/blob/master/.eslintrc) file I created into the .eslintrc
+1. Create file **.eslintrc** same directory with **package.json**. All of standard config for your code will be here.
+2. Copy content of [.eslintrc](https://github.com/nguyencuong382/node-eslint-standard/blob/master/.eslintrc) sample into the .eslintrc
 3. Install package
 ```
 npm install --save-dev eslint-config-loopback
