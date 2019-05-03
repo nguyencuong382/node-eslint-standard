@@ -11,8 +11,12 @@
 
 ### Setup .eslintrc for project
 1. Create file .eslintrc same directory with package.json. All of standard config for your code will be here.
-2. Copy content of [.eslint] file I created into the .eslintrc
-3. Done! when you create some bad code, visual studion will alert error or warning. To fix this: **Ctrl + Shift + L**
+2. Copy content of [.eslint](https://github.com/nguyencuong382/node-eslint-standard/blob/master/.eslintrc) file I created into the .eslintrc
+3. Install package
+```
+npm install --save-dev eslint-config-loopback
+```
+4. Done! when you create some bad code, visual studion will alert error or warning. To fix this: **Ctrl + Shift + L**
 
 ### Modify file .eslintrc
 We may have many different projects of javascript language (Vuejs, Reactjs, Nodejs,...), each project may has own standard eslint. Eslint also supports many types of standards: [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb), [eslint-config-google](https://www.npmjs.com/package/eslint-config-google), [eslint-config-loopback](https://www.npmjs.com/package/eslint-config-loopback), ...
